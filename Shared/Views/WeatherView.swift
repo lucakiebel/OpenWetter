@@ -93,7 +93,7 @@ struct WeatherView: View {
 
 struct WeatherView_Previews: PreviewProvider {
     static var previews: some View {
-		WeatherView(weather: WeatherImageRes(weather: previewWeather, image: URL(string:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Muenster_Innenstadt.jpg/500px-Muenster_Innenstadt.jpg")!))
+		WeatherView(weather: WeatherImageRes(weather: previewWeather, image: previewWikiImage))
     }
 }
 
