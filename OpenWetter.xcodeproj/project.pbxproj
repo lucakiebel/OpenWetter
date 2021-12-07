@@ -31,6 +31,8 @@
 		817CA782275E04C100B137BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CA780275E04C100B137BC /* Extensions.swift */; };
 		817CA785275E0D6B00B137BC /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CA784275E0D6B00B137BC /* WeatherRow.swift */; };
 		817CA786275E0D6B00B137BC /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CA784275E0D6B00B137BC /* WeatherRow.swift */; };
+		817CA789275F9FAC00B137BC /* .env.example in Resources */ = {isa = PBXBuildFile; fileRef = 817CA788275F9FAC00B137BC /* .env.example */; };
+		817CA78A275F9FAC00B137BC /* .env.example in Resources */ = {isa = PBXBuildFile; fileRef = 817CA788275F9FAC00B137BC /* .env.example */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,7 @@
 		817CA780275E04C100B137BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		817CA784275E0D6B00B137BC /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 		817CA787275F69F200B137BC /* OpenWetter--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "OpenWetter--iOS--Info.plist"; sourceTree = "<group>"; };
+		817CA788275F9FAC00B137BC /* .env.example */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env.example; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 		817CA741275CF53700B137BC = {
 			isa = PBXGroup;
 			children = (
+				817CA788275F9FAC00B137BC /* .env.example */,
 				817CA787275F69F200B137BC /* OpenWetter--iOS--Info.plist */,
 				817CA746275CF53800B137BC /* Shared */,
 				817CA755275CF53900B137BC /* macOS */,
@@ -229,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				817CA77E275D09B700B137BC /* weatherData.json in Resources */,
+				817CA789275F9FAC00B137BC /* .env.example in Resources */,
 				817CA766275CF67A00B137BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				817CA77F275D09B700B137BC /* weatherData.json in Resources */,
+				817CA78A275F9FAC00B137BC /* .env.example in Resources */,
 				817CA767275CF67A00B137BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

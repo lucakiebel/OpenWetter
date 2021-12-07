@@ -25,6 +25,12 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
 		manager.requestLocation()
 	}
 	
+	func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+		if status == .authorizedWhenInUse {
+			
+		}
+	}
+	
 	func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
 		location = locations.first?.coordinate
 		isLoading = false
